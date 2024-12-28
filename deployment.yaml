@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: monitoring-app
-        image: <your-dockerhub-username>/monitoring-app:latest
+        image: docker push varun38/monitoring-app:latest
         ports:
         - containerPort: 3000
